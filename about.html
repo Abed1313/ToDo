@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Styles for main content */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        /* Styles for footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- Add more navigation links here if needed -->
+            </ul>
+        </nav>
+        <h1>ToDo</h1>
+        <img src="360_F_614845842_pNcPaSxVwBiO6hGaaSXKrQOCs6xqnijX.jpg">
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We are a company specialized in helping people and urging them to work and live their lives with excellence and success, so the name of our company is ToDo</p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; copywrite@</p>
+        <!-- Add any additional content here -->
+    </footer>
+</body>
+</html>
