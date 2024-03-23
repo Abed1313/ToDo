@@ -3,7 +3,7 @@
 let quest=["Are you Student? (yes/no)", "Do you live in Jordan? (yes/no)","Are you love your specialty? (yes/no)"];
    let answer=[];
 
-function tes(){
+function promptQuestion(){
    
    for (let i=0 ; i<quest.length ; i++){
     
@@ -24,14 +24,15 @@ function tes(){
 }
 
 
-tes();
-function Rresult(){
+promptQuestion();
+
+function printAnswers(){
    
    for(let x = 0 ; x < answer.length ; x++){
        console.log("The answers are : " + answer)
    }
 }
-Rresult()
+printAnswers()
 
 
 
