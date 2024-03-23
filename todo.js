@@ -22,11 +22,11 @@ function tes(){
    }
 
 }
-console.log(answer);
 
 
+tes();
 function Rresult(){
-   tes();
+   
    for(let x = 0 ; x < answer.length ; x++){
        console.log("The answers are : " + answer)
    }
