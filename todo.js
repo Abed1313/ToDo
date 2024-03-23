@@ -1,3 +1,37 @@
+'use strict'
+
+let quest=["Are you Student? (yes/no)", "Do you live in Jordan? (yes/no)","Are you love your specialty? (yes/no)"];
+   let answer=[];
+
+function tes(){
+   
+   for (let i=0 ; i<quest.length ; i++){
+    
+       do{
+           var q1= prompt(quest[i]);
+           
+               if(q1 === ""){
+                   alert("your answer should not be empty")
+               }else if (q1 !== "yes" && q1 !== "no"){
+               alert("your answer should be (yes/no)")
+               }
+           
+       }while (q1 !== "yes" && q1 !== "no");
+       
+       answer.push(q1)
+   }
+
+}
+console.log(answer);
+
+
+function Rresult(){
+   tes();
+   for(let x = 0 ; x < answer.length ; x++){
+       console.log("The answers are : " + answer)
+   }
+}
+Rresult()
 
 
 
